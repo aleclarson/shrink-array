@@ -74,9 +74,6 @@ function shrinkArray(arr, arg2, arg3) {
       // Size of the current group
       let gsize = 0
 
-      // Sum of all group sizes
-      let gsum = 0
-
       // Total number of groups
       let gcount = 0
 
@@ -85,7 +82,6 @@ function shrinkArray(arr, arg2, arg3) {
         next(arr[++i], gsize++)
         if (i >= gend) {
           res.push(done())
-          gsum += gsize
           gcount += 1
           if (gcount == len) {
             break

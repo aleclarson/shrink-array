@@ -87,6 +87,11 @@ function shrinkArray(arr, arg2, arg3) {
           }
           gsize = 0
           gend += gsize_avg
+
+          // Ensure `gend` never rounds up to `end`
+          if (Math.ceil(gend) >= end) {
+            gend = end - 1
+          }
         }
       }
     } else {

@@ -82,8 +82,7 @@ function shrinkArray(arr, arg2, arg3) {
         next(arr[++i], gsize++)
         if (i >= gend) {
           res.push(done())
-          gcount += 1
-          if (gcount == len) {
+          if (++gcount == len) {
             break
           }
           gsize = 0

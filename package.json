@@ -1,0 +1,11 @@
+{
+  "name": "shrink-array",
+  "version": "0.0.1",
+  "devDependencies": {
+    "testpass": "^0.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aleclarson/shrink-array.git"
+  }
+}

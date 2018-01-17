@@ -1,5 +1,5 @@
 
-# shrink-array v0.0.1
+# shrink-array v0.0.2
 
 Create a new array based on the given array, but with a reduced length. The values in the given array are equally distributed into subsets  based on an average (determined by `given_length / new_length`).
 

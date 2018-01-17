@@ -1,6 +1,6 @@
 {
   "name": "shrink-array",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "devDependencies": {
     "testpass": "^0.5.1"
   },
